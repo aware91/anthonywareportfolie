@@ -4,6 +4,9 @@ import LambdaSchool from './components/lambdaSchool/LambdaSchool';
 import Home from './Home';
 import aw from './img/aw.png';
 import IndependentProjects from './components/independentProject/IndependentProjects';
+import WebFund from './components/lambdaSchool/webFundamentals/WebFund';
+import WebAppI from './components/lambdaSchool/webApplicationsI/WebAppI';
+import WebAppII from './components/lambdaSchool/webApplicaionsII/WebAppII';
 
 export default function NavBar() {
     const awStyle = {
@@ -29,7 +32,10 @@ export default function NavBar() {
                 </div>
             </nav>
             <Switch>
-                <Route path='/lambda-school'>
+                <Route path='/lambda-school/webfund' component={WebFund} />
+                <Route path='/lambda-school/webappI' component={WebAppI} />
+                <Route path='/lambda-school/webappII' component={WebAppII} />
+                <Route exact path='/lambda-school'>
                     <LambdaSchool />
                 </Route>
                 <Route path='/independent-projects'>

@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import './webAppII.css';
+import '../webApplicaionsII/webAppII.css';
 import testimg from '../../../img/test-img.jpg';
 
 
-const AdvancedReact = () => {
-
+const WebFund = () => {
+    const moveDown = {
+        marginTop: '120px'
+    }
     return (
-        <div className='units'>
+        <div style={moveDown} className='units'>
             <h1>Web Applications II</h1>
             <h3>Advanced React</h3>
             <section className='sprints'>
@@ -147,4 +149,4 @@ const AdvancedReact = () => {
     )
 }
 
-export default AdvancedReact
+export default WebFund
