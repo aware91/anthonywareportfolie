@@ -65,3 +65,31 @@ img {
     width: 200px;
     height: 150px;
 }
+
+.lambda {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+}
+
+.lambda h1 {
+    text-align: center;
+    background-color: #2F2B4A;
+    color: #EC3944;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.lambdaTitles h3 {
+    text-align: center;
+    background-color: #2F2B4A;
+    color: white;
+    margin: auto;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid yellow;
+}

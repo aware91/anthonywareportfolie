@@ -11,16 +11,16 @@ export default function LambdaSchool() {
     }
     const { path, url } = useRouteMatch()
     return (
-        <div style={moveDown}>
-            <div>
+        <div style={moveDown} className="lambda">
+            <div className="lambdaTitles">
             <h1>Lambda School</h1>
-            <h2>Web Fundamentals</h2>
+            <h3>Web Fundamentals</h3>
 
-            <h2>Web Applications I</h2>
+            <h3>Web Applications I</h3>
 
-            <h2>Web Applications II</h2>
+            <h3>Web Applications II</h3>
             <NavLink to={`${url}/webappII`} style={linkStyle}>Projects</NavLink>
-            <h2>Web API: Node</h2>
+            <h3>Web API: Node</h3>
             </div>
             <Switch>
                 {/* <Route path='/lambda-school/web-fundamentals'>
