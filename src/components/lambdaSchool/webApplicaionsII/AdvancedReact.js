@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import './webAppII.css';
-import testimg from '../../img/test-img.jpg';
+import testimg from '../../../img/test-img.jpg';
 
 
 const AdvancedReact = () => {
 
     return (
-        <div>
+        <div className='units'>
             <h1>Web Applications II</h1>
             <h3>Advanced React</h3>
             <section className='sprints'>
                 <div className='modules'>
                     <div>
-                    <h4>Class Components</h4>
-                    <a href="#">React Todo</a>
-                    <p>We learned about classes in React. </p>
-                    <time>May 5, 2020</time>
+                        <h4>Class Components</h4>
+                        <a href="#">React Todo</a>
+                        <p>We learned about classes in React. </p>
+                        <time>May 5, 2020</time>
                     </div>
                     <img src={testimg} alt=''/>
                 </div>
@@ -30,7 +30,7 @@ const AdvancedReact = () => {
                 </div>
                 <div className='modules'>
                     <div>
-                        <h4>Composing and Sharing Non-Visual Behavior</h4>
+                        <h4>Composing & Sharing Non-Visual Behavior</h4>
                         <a href="#">Dark Mode</a>
                         <p>Class Example </p>
                         <time>May 11, 2020</time>
