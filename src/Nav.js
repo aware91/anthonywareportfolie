@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
-import { Nav } from 'reactstrap';
 import LambdaSchool from './components/lambdaSchool/LambdaSchool';
 import Home from './Home';
 import aw from './img/aw.png';
