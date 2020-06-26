@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
-import AdvancedReact from './components/webApplicaionsII/AdvancedReact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import NavBar from './Nav';
+
+// import AdvancedReact from './components/lambdaSchool/webApplicaionsII/AdvancedReact';
 
 function App() {
   return (
     <div>
-      <header>
-      <AdvancedReact />
-      </header>
+      <Router>
+        <header>
+        <NavBar /> 
+        </header>
+      </Router>
     </div>
   );
 }

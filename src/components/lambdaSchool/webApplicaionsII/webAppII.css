@@ -1,4 +1,4 @@
-h1 {
+.units h1 {
     text-align: center;
     background-color: #2F2B4A;
     color: #EC3944;
@@ -6,7 +6,7 @@ h1 {
     padding: 50px;
 }
 
-h3 {
+.units h3 {
     text-align: center;
     background-color: #2F2B4A;
     color: white;
@@ -15,7 +15,7 @@ h3 {
     padding: 20px;
 }
 
-h4 {
+.units h4 {
     color: #EC3944;
 }
 
@@ -23,7 +23,7 @@ h4 {
     border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 75%;
     margin: 1% auto;
@@ -37,10 +37,12 @@ h4 {
     border: 1px solid blue;
 }
 .modules div {
+    border: 1px solid yellow;
     display: flex;
     flex-flow: column wrap;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
+    width: 55%;
 }
 
 .sprint {
@@ -51,8 +53,16 @@ h4 {
     margin: 2%;
 }
 
+.modules h4 {
+    color: #EC3944;
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+}
+
 img {
     margin: 2%;
     width: 200px;
     height: 150px;
 }
+
