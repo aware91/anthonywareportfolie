@@ -64,5 +64,6 @@ img {
     margin: 2%;
     width: 200px;
     height: 150px;
+    box-shadow: 10px 10px 10px #2F2B4A;
 }
 

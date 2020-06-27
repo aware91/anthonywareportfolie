@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './webAppII.css';
 import testimg from '../../../img/test-img.jpg';
 import classComp from '../../../img/class-components.png'
