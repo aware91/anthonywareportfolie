@@ -32,9 +32,16 @@ export default function NavBar() {
                 </div>
             </nav>
             <Switch>
+                {/* WebApp2 Links */}
+                {/* <Route path='react-todo-5wbbsqggm.vercel.app' /> */}
+                {/* <Route path='/lambda-school/webappII/react-life-cycle' component={ReactLife} />
+                <Route path='/lambda-school/webappII/composing-and-sharing' component={ComAndShare} />
+                <Route path='/lambda-school/webappII/testing-web-app' component={TestingWebApp} /> */}
+                {/* Lambda School Links */}
                 <Route exact path='/lambda-school/webfund' component={WebFund} />
                 <Route exact path='/lambda-school/webappI' component={WebAppI} />
                 <Route exact path='/lambda-school/webappII' component={WebAppII} />
+                {/* Nav Links */}
                 <Route exact path='/lambda-school'>
                     <LambdaSchool />
                 </Route>

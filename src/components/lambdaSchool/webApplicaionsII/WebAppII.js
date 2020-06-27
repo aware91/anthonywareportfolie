@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
-import AdvReact from './AdvReact';
-import ComAndShare from './ComAndShare';
-import ReactLife from './ReactLife';
-import TestingWebApp from './TestingWebApp';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './webAppII.css';
 import testimg from '../../../img/test-img.jpg';
+import classComp from '../../../img/class-components.png'
 
 
 const webAppII = () => {
@@ -20,17 +17,16 @@ const webAppII = () => {
                 <div className='modules'>
                     <div>
                         <h4>Class Components</h4>
-                        <a href="#">React Todo</a>
+                        <a target='_blank' href='https://react-todo-5wbbsqggm.vercel.app/'>
+                            React Todo
+                        </a>
                         <p>We learned about classes in React. </p>
                         <time>May 5, 2020</time>
                     </div>
                     <div>
-                        <Link to='/lambda-school/webappII/advanced-react'>
-                            <img src={testimg} alt=''/>
-                        </Link>
-                        <Link to='/lambda-school/webappII/advanced-react'>
-                            <p>Advanced React Project</p>
-                        </Link>
+                        <a target='_blank' href='https://react-todo-5wbbsqggm.vercel.app/'>
+                            <img src={classComp} alt='Class Components Website'/>
+                        </a>
                     </div>
                 </div>
                 <div className='modules'>
@@ -157,12 +153,6 @@ const webAppII = () => {
                 <p>Class Example </p>
                 <time>May 13, 2020</time>
             </div>
-            <Switch>
-                <Route path='/lambda-school/webappII/advanced-react' component={AdvReact} />
-                <Route path='/lambda-school/webappII/react-life-cycle' component={ReactLife} />
-                <Route path='/lambda-school/webappII/composing-and-sharing' component={ComAndShare} />
-                <Route path='/lambda-school/webappII/testing-web-app' component={TestingWebApp} />
-            </Switch>
         </div>
     )
 }

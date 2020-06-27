@@ -1,6 +1,5 @@
 import React from 'react';
-import { Route, Link, Switch, useRouteMatch } from 'react-router-dom';
-import AdvancedReact from './webApplicaionsII/WebAppII';
+import { Link, useRouteMatch } from 'react-router-dom';
 import './lambdaSchoolCSS.css';
 
 export default function LambdaSchool() {
