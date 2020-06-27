@@ -32,9 +32,9 @@ export default function NavBar() {
                 </div>
             </nav>
             <Switch>
-                <Route path='/lambda-school/webfund' component={WebFund} />
-                <Route path='/lambda-school/webappI' component={WebAppI} />
-                <Route path='/lambda-school/webappII' component={WebAppII} />
+                <Route exact path='/lambda-school/webfund' component={WebFund} />
+                <Route exact path='/lambda-school/webappI' component={WebAppI} />
+                <Route exact path='/lambda-school/webappII' component={WebAppII} />
                 <Route exact path='/lambda-school'>
                     <LambdaSchool />
                 </Route>
