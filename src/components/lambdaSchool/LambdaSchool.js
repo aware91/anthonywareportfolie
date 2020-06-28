@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './lambdaSchoolCSS.css';
 
 export default function LambdaSchool() {
@@ -9,7 +9,7 @@ export default function LambdaSchool() {
     const linkStyle = {
         textDecoration: 'none',
     }
-    const { path, url } = useRouteMatch()
+    // const { path, url } = useRouteMatch()
     return (
         <div style={moveDown} className="lambda">
             <div className="lambdaTitles">

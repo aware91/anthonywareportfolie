@@ -22,7 +22,7 @@ export default function Home() {
             <div className='homeTitle'>
                 <h1>Anthony Ware</h1>
                 <p>Front End Web Dev</p>
-                <img src={pic} alt='Anthony Ware Picture' style={picCSS} />
+                <img src={pic} alt='Personal Pic' style={picCSS} />
                 </div>
                 <div className='homeLambda'>
                     <h2>Lambda School</h2>

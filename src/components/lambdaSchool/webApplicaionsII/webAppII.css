@@ -29,6 +29,13 @@
     margin: 1% auto;
 }
 
+@media (max-width: 500px) {
+    .sprints {
+        flex-flow: column;
+        width: 100%;
+    }
+}
+
 .modules {
     display: flex;
     flex-flow: row wrap;
@@ -36,6 +43,13 @@
     width: 45%;
     border: 1px solid blue;
 }
+
+@media (max-width: 500px) {
+    .modules {
+        width: 100%;
+    }
+}
+
 .modules div {
     border: 1px solid yellow;
     display: flex;
@@ -43,6 +57,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 45%;
+}
+
+@media (max-width: 500px) {
+    .modules div {
+        width: 100%;
+        align-items: center;
+    }
 }
 
 .sprint {
@@ -67,3 +88,11 @@ img {
     box-shadow: 10px 10px 10px #2F2B4A;
 }
 
+@media (max-width: 500px) {
+    img {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
